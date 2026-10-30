@@ -1,0 +1,7 @@
+# Compiled binaries and local build products
+build/
+digital-logic
+*.o
+*.out
+*.dSYM/
+.DS_Store

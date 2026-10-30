@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Digital Logic Simulator",
+      "type": "shell",
+      "command": "clang++",
+      "args": ["-std=c++11", "-Wall", "-Wextra", "-pedantic", "${workspaceFolder}/src/main.cpp", "-o", "${workspaceFolder}/digital-logic"],
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
